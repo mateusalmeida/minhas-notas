@@ -2,9 +2,6 @@
 
 <img src="../img/livros/como-ler-livros.jpg" alt="drawing" height="250"/>
 
-<br />
-<br />
-
 O livro fala sobre o quê
 
 O que exatamente está sendo dito, e como?
