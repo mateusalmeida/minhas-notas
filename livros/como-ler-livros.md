@@ -25,6 +25,7 @@ O livro é prático ou teórico?
 * Regra 8 - Descubra quais são as soluções do autor.
 * Regra 9 - Você tem de dizer com razoável grau de certeza 'eu entendo' antes que possa dizer 'concordo' ou 'discordo' ou 'suspendo o julgamento'.
 * Regra 10 - Quando discordar, faça-o de maneira sensata, sem gerar disputas ou discussões.
+* Regra 11 - Respeite a diferença entre conhecimento e opinião fornecendo razões para quaisquer julgamentos críticos que fizer.
 
 ## Links úteis
 
