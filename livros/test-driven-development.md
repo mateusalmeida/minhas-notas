@@ -30,7 +30,7 @@ TDD é uma consciência da lacuna entre a decisão e o feedback durante a progra
 
 Certamente há tarefas de programação que não podem ser conduzidas apenas por testes, como software de segurança e concorrência.
 
-## Section I: Money Example
+## Cap 2: Section I: Money Example
 
 Ritmo do TDD
 
@@ -40,7 +40,7 @@ Ritmo do TDD
 4. Rode todos os testes e veja todos passarem
 5. Refatorar para remover duplicação
 
-### Money Example
+### Cap 3: Money Example
 
 Não começamos com objetos, começamos com testes
 
@@ -64,4 +64,29 @@ Os objetos são excelentes para abstrair a duplicação da lógica. A eliminaç�
 
 TDD não é sobre darmos passos pequeninos; é sobre sermos capazes de dar passos pequeninos.
 
-### Degenerate Objects
+### Cap 4: Degenerate Objects
+
+O ciclo geral de TDD
+
+1. Escreva um teste. Você está escrevendo uma história. Invente a interface que você gostaria de ter. Inclua todos os elementos da história que você imagina serem necessários para calcular as respostas certas.
+2. Faça funcionar. Obter rapidamente aquela barra verde domina todo o resto.
+3. Faça isso direito. Remova a duplicação que você introduziu para obter o verde rápido. O objetivo é um código limpo que funcione.
+
+Dividir e conquistar, resolvendo a parte "que funciona", e depois resolver o "código limpo".
+
+Estratégias para se chegar ao verde rapidamente:
+
+* Engane-o - retorne uma constante e gradualmente substitua contantes por variáveis até ter o código real.
+* Use a implementação óbvia - codifique a implementação real.
+
+### Cap 5: Equality for all
+
+Existe uma terceira estratégia, a triangulação. Ignoramos brevemente a duplicação entre o código de teste e o código do modelo. Quando o segundo exemplo exige uma solução mais geral, então, e somente então, generalizamos.
+
+Usar a triangulação quando não tiver certeza de como refatorar.
+
+>Por que eu precisaria escrever outro teste para me dar permissão para escrever o que provavelmente poderia ter escrito da primeira vez?
+
+Quando ideias sobre o design não estiverem vindo, triangulação dá a chance de pensar sobre o problema de uma direção ligeiramente diferente.
+
+### Cap 6: Privacy
