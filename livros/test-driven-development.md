@@ -89,4 +89,20 @@ Usar a triangulação quando não tiver certeza de como refatorar.
 
 Quando ideias sobre o design não estiverem vindo, triangulação dá a chance de pensar sobre o problema de uma direção ligeiramente diferente.
 
-### Cap 6: Privacy
+### Cap 7: Franc-ly Speaking
+
+As diferentes fases têm propósitos diferentes. Diferentes estilos de solução e diferentes pontos de vista são necessários. As três primeiras fases precisam ser feitas rapidamente, para que cheguemos em um estado conhecido com novas funcionalidades. Pode-se cometer qualquer número de pecados para se chegar lá, mas só momentaneamente.
+
+### Cap 8: Equality for All, Redux
+
+Quando você não tem testes suficientes, provavelmente encontrará refatorações que não são suportadas por testes. Pode-se fazer algo errado na refatoração e mesmo assim os teste passarem.
+
+Escreva os testes que desejaria que tivesse. Caso contrário, você acabará quebrando algo durante a refatoração.
+
+### Cap 10: Makin' objects
+
+Quando se tem duas subclasses que não estão fazendo trabalho o suficiente para justificar sua existência talvez seja melhor eliminá-las.
+
+Um passo mais perto de eliminar as subclasses é ter menos referências às subclasses diretamente. Como usar Factory Method na classe pai para remover referências às subclasses.
+
+Ao desacoplar os testes da existência das subclasses, demos a nós mesmos liberdade para alterar a herança sem afetar nenhum código do modelo.
