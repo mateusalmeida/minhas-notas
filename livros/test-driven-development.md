@@ -79,7 +79,7 @@ Estratégias para se chegar ao verde rapidamente:
 * Engane-o - retorne uma constante e gradualmente substitua contantes por variáveis até ter o código real.
 * Use a implementação óbvia - codifique a implementação real.
 
-### Cap 5: Equality for all
+### Cap 5: Equality for All
 
 Existe uma terceira estratégia, a triangulação. Ignoramos brevemente a duplicação entre o código de teste e o código do modelo. Quando o segundo exemplo exige uma solução mais geral, então, e somente então, generalizamos.
 
@@ -99,10 +99,22 @@ Quando você não tem testes suficientes, provavelmente encontrará refatoraçõ
 
 Escreva os testes que desejaria que tivesse. Caso contrário, você acabará quebrando algo durante a refatoração.
 
-### Cap 10: Makin' objects
+### Cap 10: Makin' Objects
 
 Quando se tem duas subclasses que não estão fazendo trabalho o suficiente para justificar sua existência talvez seja melhor eliminá-las.
 
 Um passo mais perto de eliminar as subclasses é ter menos referências às subclasses diretamente. Como usar Factory Method na classe pai para remover referências às subclasses.
 
 Ao desacoplar os testes da existência das subclasses, demos a nós mesmos liberdade para alterar a herança sem afetar nenhum código do modelo.
+
+### Cap 11: Time We're Livin' in
+
+Trabalhar em pequenos passos é uma recomendação, se parecer restritivo, dê passos maiores. Se você não tiver certeza, dê passos menores. TDD é um processo de direção.
+
+### Cap 12: Interesting Times
+
+Em vez de aplicar minutos de raciocínio suspeito, podemos simplesmente perguntar ao computador, fazendo a alteração e executando os testes.
+
+Sem os testes você não tem escolha, você tem que raciocinar. Com os testes, você pode decidir se um experimento responderia à pergunta mais rapidamente.
+
+Preferível não escrever um teste quando se tem uma barra vermelha. Não podemos alterar o código do modelo sem um teste. O caminho conservador é voltar com as mudanças que causaram a barra vermelha, e voltar a verde. Em seguida, alteramos o teste, corrigimos a implementação e tentamos novamente a mudança original.
