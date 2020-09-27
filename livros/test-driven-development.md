@@ -118,3 +118,23 @@ Em vez de aplicar minutos de raciocínio suspeito, podemos simplesmente pergunta
 Sem os testes você não tem escolha, você tem que raciocinar. Com os testes, você pode decidir se um experimento responderia à pergunta mais rapidamente.
 
 Preferível não escrever um teste quando se tem uma barra vermelha. Não podemos alterar o código do modelo sem um teste. O caminho conservador é voltar com as mudanças que causaram a barra vermelha, e voltar a verde. Em seguida, alteramos o teste, corrigimos a implementação e tentamos novamente a mudança original.
+
+### Cap 18: Abstraction Finally
+
+Possivelmente irá se ter quase o mesmo número de linhas de código de teste e de implementação ao fazer TDD. Para que o TDD faça sentido do ponto de vista económico, você deverá ser capaz de escrever duas vezes mais linhas por dia do que antes ou escrever a metade das linhas para a mesma funcionalidade. Você terá que medir e ver o efeito que o TDD tem em sua própria prática. No entanto, certifique-se de considerar o tempo de depuração, integração e explicação de suas métricas.
+
+O TDD pode ser usado como uma forma de buscar a perfeição, mas esse não é o uso mais eficaz. Se você tem um sistema grande, as peças que você toca o tempo todo devem ser absolutamente sólidas, para que você possa fazer alterações diárias com segurança.
+
+### Cap 19: Money Retrospective
+
+O TDD pode ser usado como uma forma de buscar a perfeição, mas esse não é o uso mais eficaz. Se você tem um sistema grande, as peças que você toca o tempo todo devem ser absolutamente sólidas, para que você possa fazer alterações diárias com segurança.
+
+A cobertura certamente não é uma medida suficiente da qualidade do teste, mas é um ponto de partida. Outra forma de avaliar a qualidade do teste é a inserção do defeito. A ideia é simples, mude o significado de uma linha de código e um teste deve ser interrompido.
+
+**Uma última revisão**
+
+Os três itens que aparecem repetidamente como surpresas ao ensinar TDD são:
+
+* As três abordagens para fazer um teste funcionar de forma limpa: fingir, triangular e apenas digitar a solução certa para começar.
+* Remover a duplicação entre teste e código como forma de direcionar o design.
+* A capacidade de controlar a lacuna entre os testes para aumentar a tração quando a estrada fica escorregadia e cruzeiro mais rápido quando as condições são mais claras.
